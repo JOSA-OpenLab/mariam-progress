@@ -22,5 +22,4 @@ i streamed the raw creation block using `git show a801d503bc:path/to/file`,
 proving that the typographical layout has been present in the core file tree structure since its creation in august 2025.
 
 # ★ Triage contribution // TASK 4
-Because freecodecamp automatically closes incoming pull requests submitted before an issue gets an official `status: open for contribution label`, 
-i focused my triage contribution on helping the maintainers build consensus and unblock public contributions:
+Because freecodecamp automatically closes incoming pull requests submitted before an issue gets an official `status: open for contribution label`, i focused my triage contribution on helping the maintainers build consensus and unblock public contributions.
