@@ -8,4 +8,5 @@ The page also notes that this event differs from the events fired when the text 
 * Added MkDocs Material, to my Audio Reactive Repo, deployed it via GitHub Pages, and linked it from the README.
 
 # ★  Write the first ADR // TASK 3
-Documnted my decision about making a simple audio analysis network instead of using TouchDesigner's pre-built `audioAnalysis` palette component in the ADR file.
+* [ADR Link](https://github.com/mariamanbar/touchdesigner-audio-reactive-mesh/commit/362400b7bce483c93547eadc13fbbec8fbda1ee6)
+* Documnted my decision about making a simple audio analysis network instead of using TouchDesigner's pre-built `audioAnalysis` palette component in the ADR file.
