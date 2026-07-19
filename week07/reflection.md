@@ -39,4 +39,5 @@ Next, I downloaded `cosign` and initiated a keyless identity verification flow t
    * **Immediate Mitigation:** Avoid running `vite --host 0.0.0.0` in untrusted or public network environments. Leave the dev server locked down to localhost (`127.0.0.1`) so external actors cannot probe the open port.
 
 # ★ Run Scorecard on a project // TASK 4
-Ran an OpenSSF Scorecard assessment on the `freeCodeCamp/freeCodeCamp` repository and identified a `0/10 risk` rating on `workflow token permissions`. To mitigate this risk, I opened a Pull Request to enforce the principle of `least privilege` by adding strict, explicit `permissions:` blocks to three legacy background utility workflows.
+Ran an OpenSSF Scorecard assessment on the `freeCodeCamp/freeCodeCamp` repository and identified a `0/10 risk` rating on `workflow token permissions`. To mitigate this risk, I opened a Pull Request to enforce the principle of `least privilege` by adding strict, explicit `permissions:` blocks to three legacy background utility workflows.  
+* [PR link](https://github.com/freeCodeCamp/freeCodeCamp/pull/68940)
