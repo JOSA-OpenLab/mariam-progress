@@ -15,3 +15,11 @@
 * **Repository Description**: Added short project description in the repository settings to resolve the final checklist item.  
 * **Proof of Completion**:
 <img width="1352" height="635" alt="image" src="https://github.com/user-attachments/assets/ce3ed5f7-bf14-4ed1-8149-ed6fb46065aa" />
+
+# ★ Write the CONTRIBUTING.md // TASK 3
+Documented local setup steps, 60 FPS performance testing checks, bug reporting procedures, Conventional Commit standards, and review expectations.
+* [CONTRIBUTING.md](https://github.com/mariamanbar/touchdesigner-audio-reactive-mesh/blob/main/.github/CONTRIBUTING.md)
+
+# ★ Document governance // TASK 4
+Adopted a Benevolent Dictator For Life (BDFL) model to clarify how feature proposals, discussions, and technical choices are finalized.
+* [GOVERNANCE.md](https://github.com/mariamanbar/touchdesigner-audio-reactive-mesh/blob/main/GOVERNANCE.md)
