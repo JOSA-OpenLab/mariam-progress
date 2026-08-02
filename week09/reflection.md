@@ -23,3 +23,20 @@ Documented local setup steps, 60 FPS performance testing checks, bug reporting p
 # ★ Document governance // TASK 4
 Adopted a Benevolent Dictator For Life (BDFL) model to clarify how feature proposals, discussions, and technical choices are finalized.
 * [GOVERNANCE.md](https://github.com/mariamanbar/touchdesigner-audio-reactive-mesh/blob/main/GOVERNANCE.md)
+
+# ★ OSS Audit & Contribution // TASK 5
+**1. Community Profile Audit**
+* **Status:** green, with a yellow dot on *Issue Templates*.
+* **Yellow Dot:** `freeCodeCamp` intentionally does not provide a GitHub Feature Request template because their policy requires all feature proposals to be discussed on their forum first. The automated scanner flags this intentional omission as a partial match.
+
+**2. License Audit**
+* **License:** BSD 3-Clause License.
+* **Type:** Permissive license allowing commercial and non-commercial reuse, with an explicit clause forbidding the use of the project's or contributors' names for promotional endorsement without written permission.
+
+**3. Guidelines Audit (`CONTRIBUTING`)**
+* **Repository:** The actual documentation and contributors guidelines are maintained and hosted in a separate dedicated repository (`freeCodeCamp/contribute`), rather than inside the primary `freeCodeCamp/freeCodeCamp` repo.
+* Enforces **Conventional Commits** (e.g., `fix(curriculum): ...` or `docs: ...`).
+* Requires creating feature/fix branches on personal forks instead of committing directly to `main`.
+
+**4. Contribution Submitted**
+* **Pull Request Link:** (https://github.com/freeCodeCamp/contribute/pull/1456)
