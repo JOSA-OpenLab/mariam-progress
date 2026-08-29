@@ -7,7 +7,7 @@
 ## ★ 2. Two-Week Investigation Log
 
 ### Week 11: Tooling Audit, Threat Modeling & Surface Scans
-* **Disclosure & Bot Infrastructure:** Confirmed that freeCodeCamp requires private email disclosure (`security@freecodecamp.org`) for actual vulnerabilities. Checked their Renovate bot setup, they maintain a live Dependency Dashboard [issue `#65122`](https://github.com/freeCodeCamp/freeCodeCamp/issues/65122) that automatically opens PRs for routine dependency bumps, so generic version updates would just get closed as duplicates.
+* **Disclosure & Bot Infrastructure:** Confirmed that freeCodeCamp requires private email disclosure (`security@freecodecamp.org`) for actual vulnerabilities. Checked their Renovate bot setup, they maintain a live Dependency Dashboard [issue #65122](https://github.com/freeCodeCamp/freeCodeCamp/issues/65122) that automatically opens PRs for routine dependency bumps, so generic version updates would just get closed as duplicates.
 * **Studied past security fixes:** Looked through closed advisory [GHSA-qf62-hv7h-v8m8](https://github.com/freeCodeCamp/freeCodeCamp/security/advisories/GHSA-qf62-hv7h-v8m8) (JWT storage in browser). Reviewed how they shifted auth tokens from localStorage/sessionStorage over to `HttpOnly` cookies to understand their client-side auth model.
 * **Ran a full monorepo scan with Grype:** Generated an SBOM and scanned it with `grype sbom.json`:
 * **Monorepo Vulnerability Scanning (`grype`):** Generated an SBOM for the monorepo and executed a vulnerability scan (`grype sbom.json`):
