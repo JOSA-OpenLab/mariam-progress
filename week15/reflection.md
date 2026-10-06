@@ -26,3 +26,19 @@ queue.collection.shift();
 * **Next Step :** #70594 is labeled `status: waiting review`. I'm waiting for the maintainer to decide which PR moves forward before closing either one.
 
 > *Opening a competing PR without saying anything would have split the review and risk closing the PR as douplicate. Commenting on the original kept the conversation in one place.*
+
+# ★ Pull Request // Movie Ticket Booking Calculator Step 21
+
+* **Issue :** [#70696](https://github.com/freeCodeCamp/freeCodeCamp/issues/70696)
+* **The Scenario :** Step 21 of the *Movie Ticket Booking Calculator* workshop (Python v9 certification) asks learners to subtract a discount to get the final ticket price. It's the first binary subtraction task in the Python Basics workshops, but unlike the earlier steps for addition, multiplication, and division, it gave no syntax reminder or example for the `-` operator.
+* **My PR :** [PR #70704](https://github.com/freeCodeCamp/freeCodeCamp/pull/70704)
+  I added a short explanation of the subtraction operator and an example before the task instructions:
+
+```py
+amount_due = total_cost + shipping - coupon
+print(amount_due)  # 45
+```
+  The example combines `+` and `-` in one expression, like the task requires, but uses unrelated variable names so it doesn't give away the solution. Only the description changed; hints, seed code, and solution are untouched.
+* **Verification :** Ran the curriculum tests for `workshop-movie-ticket-booking-calculator`, and all `106/106` passed. On Windows, this took setting pnpm's script shell to Git Bash and running turbo with `--env-mode=loose`, because Command Prompt can't parse the scripts' inline `NODE_OPTIONS` variables.
+
+> *The fix took minutes; getting the tests to run on Windows took most of the effort.*
