@@ -1,4 +1,4 @@
-### ★ Week 13 : Practical Platform Engineering & Test Hardening
+### ★ Week 14 : Practical Platform Engineering & Test Hardening
 * **Target Module:** `api/src/routes/protected/settings.test.ts` and `api/src/routes/protected/settings.ts`.
 * **Issue Discovered & Reported:** Identified a test-coverage gap in the API's protected settings routes: an existing `Unauthenticated User` regression test parametrizes 401 checks across all protected PUT routes, but silently omitted three of them (Tracked under [issue #70182](https://github.com/freeCodeCamp/freeCodeCamp/issues/70182)).
 * **Key Technical Gaps Found:**
